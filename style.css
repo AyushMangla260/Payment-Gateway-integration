@@ -30,7 +30,28 @@ header {
     transition: opacity 250ms ease;
     font-weight: 600;
 }
-
+.main-page {
+    height: 100vh;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./katt-yukawa-K0E6E0a0R3A-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.form {
+    height: 80vh;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 10;
+}
 .navlinks {
     display: flex;
     align-items: center;
@@ -67,26 +88,14 @@ main {
     align-items: center;
 }
 
-.first {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./katt-yukawa-K0E6E0a0R3A-unsplash.jpg");
-    height: 100vh;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    color: white;
-}
 
 .first-heading {
+    margin-top: 100px;
     font-size: 3em;
 }
 
 .first-subtext {
-    margin: 1em;
+    margin-top: 10 px;
     font-weight: 400;
 }
 
@@ -113,7 +122,7 @@ main {
 footer {
     text-align: center;
     padding: 3px;
-    background-color: rgb(2, 127, 136);
+    background-color: rgba(0, 0, 0);
     color: white;
   }
 
