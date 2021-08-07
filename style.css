@@ -145,10 +145,12 @@ footer {
         margin-left: 60px;
     }
     .first-heading {
+        margin-right: 20px; 
         font-size: 2em;
         transition: all 100ms 0.4s;
     }
     .first-subtext {
+        margin-right: 20px; 
         transition: all 500ms 0.6s;
     }
     .hamburger {
