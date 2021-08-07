@@ -108,8 +108,7 @@ main {
 }
 
 #donate:hover {
-    box-shadow: 0 2rem 5rem 0 rgba(252, 162, 17, 0.5);
-    transition: 300ms ease;
+    box-shadow: 0 2rem 5rem 0 rgba(93, 157, 173, 0.952);
 }
 footer {
     text-align: center;
@@ -117,24 +116,11 @@ footer {
     background-color: rgb(2, 127, 136);
     color: white;
   }
-#donate:focus {
-    outline: none;
-}
+
 
 @media only screen and (max-width: 600px) {
-    .animate {
-        transform: translateY(-50px);
-        opacity: 0;
-    }
-    .animate2 {
-        transform: translateY(50px);
-        opacity: 0;
-    }
-    .hidden {
-        opacity: 0;
-        pointer-events: none;
-        transition: all 300ms ease;
-    }
+   
+    
     .line {
         width: 30px;
         height: 3px;
@@ -143,7 +129,7 @@ footer {
     }
     .first-heading {
         font-size: 2em;
-        transition: all 500ms 0.4s;
+        transition: all 100ms 0.4s;
     }
     .first-subtext {
         transition: all 500ms 0.6s;
@@ -153,14 +139,14 @@ footer {
         cursor: pointer;
         right: 5%;
         top: 50%;
-        transform: translate(-5%, -50%);
+        transform: translate(-10%, -50%);
         z-index: 10;
     }
     .navlinks {
         position: fixed;
         height: 100vh;
         width: 100%;
-        background-color: rgba(20, 33, 61, 0.85);
+        background-color: rgba(0, 0, 0, 0.85);
         flex-direction: column;
         clip-path: circle(100px at 90% -20%);
         -webkit-clip-path: circle(100px at 90% -20%);
@@ -168,32 +154,18 @@ footer {
         pointer-events: none;
     }
     .navlinks.open {
-        clip-path: circle(1200px at 90% -20%);
+        clip-path: circle(1200px at 0% -20%);
         -webkit-clip-path: circle(1200px at 90% -20%);
         pointer-events: all;
     }
-    .navlinks li {
-        opacity: 0;
-    }
+    
     .navlinks li a {
         font-size: 25px;
     }
-    .navlinks li:nth-child(1) {
-        transition: all 0.5s ease 0.2s;
-    }
-    .navlinks li:nth-child(2) {
-        transition: all 0.5s ease 0.2s;
-    }
-    .navlinks li:nth-child(3) {
-        transition: all 0.5s ease 0.2s;
-    }
-    .navlinks li:nth-child(4) {
-        transition: all 0.5s ease 0.2s;
-    }
-    li.fade {
-        opacity: 1;
-    }
+    
+    
 }
+
 
 @media only screen and (max-width: 400px) {
     .headText {
